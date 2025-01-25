@@ -1,0 +1,25 @@
+#def atm_simulation():
+#     balance=0
+#     while True:
+#         print("\n1. Check Balance\n2. Deposit Money\n3. Withdraw Money\n4. Exit")
+#         choice = input("Enter your choice (1-4): ")
+
+#         if choice=='1':
+#             print(f"Current balance: {balance: }")
+#         elif choice=='2':
+#             amount=float(input("Enter deposit amount: "))
+#             balance+=amount if amount>0 else print("Amount must be positive.")
+#         elif choice=='3':
+#             amount=float(input("Enter withdrawal amount: "))
+#             if 0<amount<=balance:
+#                 balance-=amount
+#             else:
+#                 print("Invalid amount.")
+#         elif choice=='4':
+#             print("Thankyou")
+#             break
+#         else:
+#             print("Invalid choice.")
+
+# if __name__=="__main__":
+#     atm_simulation()
