@@ -1,0 +1,11 @@
+# a=int(input('enter your credit score: '))
+# b=int(input('enter you age: '))
+# c=int(input('enter you salary: '))
+# if a<600:
+#     print('you are not eligible for the loan as your credit score is less')
+# elif b>60:
+#     print('you are not eligible as you are old')
+# elif c<20000:
+#     print('you are not eligible as you have less income')
+# else:
+#     print('you are eligible for the loan')    
