@@ -1,0 +1,28 @@
+# def temperature_conversion():
+#     while True:
+#         print("\n1. C to F\n2. C to K\n3. F to C\n4. F to K\n5. K to C\n6. K to F\n7. Exit")
+#         choice=input("Choose (1-7): ")
+
+#         if choice=='7':
+#             print("Goodbye!")
+#             break
+
+#         temp=float(input("Enter temperature: "))
+
+#         if choice=='1':
+#             print(f"{temp}C={(temp*9/5)+32}F")
+#         elif choice=='2':
+#             print(f"{temp}C={temp+273.15}K")
+#         elif choice=='3':
+#             print(f"{temp}F={(temp-32)*5/9}C")
+#         elif choice=='4':
+#             print(f"{temp}F={(temp-32)*5/9+273.15}K")
+#         elif choice=='5':
+#             print(f"{temp}K={temp-273.15}C")
+#         elif choice=='6':
+#             print(f"{temp}K={(temp-273.15)*9/5+32}F")
+#         else:
+#             print("Invalid choice.")
+
+# if __name__=="__main__":
+#     temperature_conversion()
