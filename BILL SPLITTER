@@ -1,0 +1,8 @@
+# a=int(input('enter bill amount: '))
+# b=int(input('enter number of people: '))
+# c=int(input('tip if any: '))
+# if c==0:
+#     d=a/b
+# else:
+#     d=(a+c)/b
+# print(f'the split per person is: {d}')
