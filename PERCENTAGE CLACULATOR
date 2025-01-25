@@ -1,0 +1,18 @@
+# def calculate_grade(percentage):
+#     if percentage>=90:
+#         return "A"
+#     elif percentage>=75:
+#         return "B"
+#     elif percentage>=50:
+#         return "C"
+#     else:
+#         return "Fail"
+
+# def student_grading_system():
+#     name = input("Enter student's name: ")
+#     marks = (float(input(f"Enter marks for subject {i+1} (out of 100): ")) for i in range(5))
+#     percentage = sum(marks)/5
+#     grade = calculate_grade(percentage)
+#     print(f"\nStudent: {name}\nTotal Marks: {sum(marks)}/500\nPercentage: {percentage:}%\nGrade: {grade}")
+# if __name__ == "__main__":
+#     student_grading_system()
